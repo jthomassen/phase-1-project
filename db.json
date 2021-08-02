@@ -1,0 +1,15 @@
+{
+    "albums": [
+        {
+            "name": "",
+            "artist": "",
+            "artwork": "",
+            "year": "",
+            "genre": "",
+            "tracks": [
+                "01.",
+                "02."
+            ]
+        }
+    ]
+}
