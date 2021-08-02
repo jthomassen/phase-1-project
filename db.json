@@ -1,6 +1,137 @@
 {
     "albums": [
         {
+            "id": "1",
+            "name": "Smiley Smile",
+            "artist": "The Beach Boys",
+            "artwork": "./assets/smiley-smile.jpeg",
+            "year": "1967",
+            "genre": "Avant-Pop",
+            "tracks": [
+                "01. Heroes and Villains",
+                "02. Vegetables",
+                "03. Fall Breaks And Back To Winter",
+                "04. She's Goin' Bald",
+                "05. Little Pad",
+                "06. Good Vibrations",
+                "07. With Me Tonight",
+                "08. Wind Chimes",
+                "09. Gettin' Hungry",
+                "10. Wonderful",
+                "11. Whistle In"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Cumbia Siglo XXI",
+            "artist": "Meridian Brothers",
+            "artwork": "./assets/cumbia-siglo-xxi.jpeg",
+            "year": "2020",
+            "genre": "Cumbia",
+            "tracks": [
+                "01. Los Golpeadores de la Cumbia",
+                "02. Cumbia del Pichamán",
+                "03. Puya del empresario",
+                "04. Cumbia de la igualdad",
+                "05. Cumbia de la fuente",
+                "06. Cumbia de la amistad",
+                "07. Cumbia del relicario",
+                "08. Cumbia totalitaria",
+                "09. Cumbia de la soledad",
+                "10. Cumbia de los proletarios"
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Glad Music",
+            "artist": "R. Stevie Moore",
+            "artwork": "./assets/glad-music.jpg",
+            "year": "1986",
+            "genre": "Power Pop",
+            "tracks": [
+                "01. Norway",
+                "02. I Like to Stay Home",
+                "03. I Wouldn't Mind Dyin'",
+                "04. He's Nuts",
+                "05. Part of the Problem",
+                "06. Don't Let Me Go to the Dogs",
+                "07. Your Dancing Ears",
+                "08. Glib Contempt",
+                "09. Why Should I Love You?",
+                "10. I Love You So Much It Hurts",
+                "11. Shakin' In the Sixties",
+                "12. Along Comes Mary",
+                "13. Colliding Circles",
+                "14. Time Stands Still",
+                "15. The Strange"
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Time 'n' Place",
+            "artist": "Kero Kero Bonito",
+            "artwork": "./assets/time-n-place.jpg",
+            "year": "2018",
+            "genre": "Hyperpop",
+            "tracks": [
+                "01. Outside",
+                "02. Time Today",
+                "03. Only Acting",
+                "04. Flyway",
+                "05. Dump",
+                "06. Make Believe",
+                "07. Dear Future Self",
+                "08. Visiting Hours",
+                "09. If I'd Known",
+                "10. Sometimes",
+                "11. Swimming",
+                "12. Rest Stop"
+            ]
+        },
+        {
+            "id": "5",
+            "name": "McCartney II",
+            "artist": "Paul McCartney",
+            "artwork": "./assets/mccartney-ii.jpg",
+            "year": "1980",
+            "genre": "New Wave",
+            "tracks": [
+                "01. Coming Up",
+                "02. Temporary Secretary",
+                "03. On the Way",
+                "04. Waterfalls",
+                "05. Nobody Knows",
+                "06. Make Believe",
+                "07. Front Parlour",
+                "08. Summer's Day Song",
+                "09. Frozen Jap",
+                "10. Bogey Music",
+                "11. Darkroom",
+                "12. One of These Days"
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Eddie Rabbitt",
+            "artist": "Eddie Rabbitt",
+            "artwork": "./assets/eddie-rabbitt.jpeg",
+            "year": "1975",
+            "genre": "Country",
+            "tracks": [
+                "01. Love Me to Sleep",
+                "02. Forgive and Forget",
+                "03. Long Gone",
+                "04. Pure Love",
+                "05. When I Was Young",
+                "06. Savin' My Love for My Baby",
+                "07. I Should Have Married You",
+                "08. Sweet Janine",
+                "09. You Get to Me",
+                "10. It Just Ain't Hit Me Yet",
+                "11. Leavin'"
+            ]
+        },
+        {
             "id": "7",
             "name": "Portait in Jazz",
             "artist": "Bill Evans Trio",
