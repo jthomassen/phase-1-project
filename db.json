@@ -1,0 +1,269 @@
+{
+    "albums": [
+        {
+            "id": "1",
+            "name": "Smiley Smile",
+            "artist": "The Beach Boys",
+            "artwork": "./assets/smiley-smile.jpeg",
+            "year": "1967",
+            "genre": "Avant-Pop",
+            "tracks": [
+                "01. Heroes and Villains",
+                "02. Vegetables",
+                "03. Fall Breaks And Back To Winter",
+                "04. She's Goin' Bald",
+                "05. Little Pad",
+                "06. Good Vibrations",
+                "07. With Me Tonight",
+                "08. Wind Chimes",
+                "09. Gettin' Hungry",
+                "10. Wonderful",
+                "11. Whistle In"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Cumbia Siglo XXI",
+            "artist": "Meridian Brothers",
+            "artwork": "./assets/cumbia-siglo-xxi.jpeg",
+            "year": "2020",
+            "genre": "Cumbia",
+            "tracks": [
+                "01. Los Golpeadores de la Cumbia",
+                "02. Cumbia del Pichamán",
+                "03. Puya del empresario",
+                "04. Cumbia de la igualdad",
+                "05. Cumbia de la fuente",
+                "06. Cumbia de la amistad",
+                "07. Cumbia del relicario",
+                "08. Cumbia totalitaria",
+                "09. Cumbia de la soledad",
+                "10. Cumbia de los proletarios"
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Glad Music",
+            "artist": "R. Stevie Moore",
+            "artwork": "./assets/glad-music.jpg",
+            "year": "1986",
+            "genre": "Power Pop",
+            "tracks": [
+                "01. Norway",
+                "02. I Like to Stay Home",
+                "03. I Wouldn't Mind Dyin'",
+                "04. He's Nuts",
+                "05. Part of the Problem",
+                "06. Don't Let Me Go to the Dogs",
+                "07. Your Dancing Ears",
+                "08. Glib Contempt",
+                "09. Why Should I Love You?",
+                "10. I Love You So Much It Hurts",
+                "11. Shakin' In the Sixties",
+                "12. Along Comes Mary",
+                "13. Colliding Circles",
+                "14. Time Stands Still",
+                "15. The Strange"
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Time 'n' Place",
+            "artist": "Kero Kero Bonito",
+            "artwork": "./assets/time-n-place.jpg",
+            "year": "2018",
+            "genre": "Hyperpop",
+            "tracks": [
+                "01. Outside",
+                "02. Time Today",
+                "03. Only Acting",
+                "04. Flyway",
+                "05. Dump",
+                "06. Make Believe",
+                "07. Dear Future Self",
+                "08. Visiting Hours",
+                "09. If I'd Known",
+                "10. Sometimes",
+                "11. Swimming",
+                "12. Rest Stop"
+            ]
+        },
+        {
+            "id": "5",
+            "name": "McCartney II",
+            "artist": "Paul McCartney",
+            "artwork": "./assets/mccartney-ii.jpg",
+            "year": "1980",
+            "genre": "New Wave",
+            "tracks": [
+                "01. Coming Up",
+                "02. Temporary Secretary",
+                "03. On the Way",
+                "04. Waterfalls",
+                "05. Nobody Knows",
+                "06. Make Believe",
+                "07. Front Parlour",
+                "08. Summer's Day Song",
+                "09. Frozen Jap",
+                "10. Bogey Music",
+                "11. Darkroom",
+                "12. One of These Days"
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Eddie Rabbitt",
+            "artist": "Eddie Rabbitt",
+            "artwork": "./assets/eddie-rabbitt.jpeg",
+            "year": "1975",
+            "genre": "Country",
+            "tracks": [
+                "01. Love Me to Sleep",
+                "02. Forgive and Forget",
+                "03. Long Gone",
+                "04. Pure Love",
+                "05. When I Was Young",
+                "06. Savin' My Love for My Baby",
+                "07. I Should Have Married You",
+                "08. Sweet Janine",
+                "09. You Get to Me",
+                "10. It Just Ain't Hit Me Yet",
+                "11. Leavin'"
+            ]
+        },
+        {
+            "id": "7",
+            "name": "Portait in Jazz",
+            "artist": "Bill Evans Trio",
+            "artwork": "./assets/portrait-in-jazz.jpg",
+            "year": "1960",
+            "genre": "Jazz",
+            "tracks": [
+                "01. Come Rain Or Come Shine",
+                "02. Autumn Leaves",
+                "03. Witchcraft",
+                "04. When I Fall In Love",
+                "05. Peri's Scope",
+                "06. What Is This Thing Called Love?",
+                "07. Spring Is Here",
+                "08. Someday My Prince Will Come",
+                "09. Blue In Green"
+            ]
+        },
+        {
+            "id": "8",
+            "name": "Into The Wild",
+            "artist": "Eddie Vedder",
+            "artwork": "./assets/into-the-wild.jpg",
+            "year": "2010",
+            "genre": "Rock",
+            "tracks": [
+                "01. Setting Forth",
+                "02. No Ceiling",
+                "03. Far Behind",
+                "04. Rise",
+                "05. Tuolumne",
+                "06. Long Nights",
+                "07. Guaranteed (Humming Version",
+                "08. Hard Sun",
+                "09. Society",
+                "10. The Wolf",
+                "11. End Of The Road",
+                "12. Guaranteed"
+            ]
+        },
+        {
+            "id": "9",
+            "name": "Good Kid, M.A.A.d City",
+            "artist": "Kendrick Lamar",
+            "artwork": "./assets/good-kid-maad-city.jpg",
+            "year": "2012",
+            "genre": "Hip Hop",
+            "tracks": [
+                "01. Sherane a.k.a Master Splinter's Daughter",
+                "02. Bitch, Don't Kill My Vibe",
+                "03. Backseat Freestyle",
+                "04. The Art Of Peer Pressure",
+                "05. Money Trees",
+                "06. Poetic Justice",
+                "07. Good Kid",
+                "08. M.A.A.d City",
+                "09. Swimming Pools (Drank)(Extended Version)",
+                "10. Sing About Me, I'm Dying Of Thirst",
+                "11. Real",
+                "12. Compton",
+                "13. The Recipe",
+                "14. Black Boy Fly",
+                "15. Now Or Never"
+            ]
+        },
+        {
+            "id": "10",
+            "name": "What's That Sound?",
+            "artist": "Haley Reinhart",
+            "artwork": "./assets/whats-that-sound.jpg",
+            "year": "2017",
+            "genre": "Funk/Soul, Blues",
+            "tracks": [
+                "01. Let's Start",
+                "02. Baby It's You",
+                "03. For What It's Worth",
+                "04. The Letter",
+                "05. Can't Find My Way Home",
+                "06. White Rabbit",
+                "07. Somewhere In Between",
+                "08. Oh! Darling",
+                "09. Sunny Afternoon",
+                "10. You Showed Me",
+                "11. Words of Love",
+                "12. Bring The Love Back Home",
+                "13. Time Of The Season",
+                "14. These Boots Are Made Walkin'"
+            ]
+        },
+        {
+            "id": "11",
+            "name": "Grand National",
+            "artist": "The John Butler Trio",
+            "artwork": "./assets/grand-national.jpg",
+            "year": "2007",
+            "genre": "Rock",
+            "tracks": [
+                "01. Better Than",
+                "02. Daniella",
+                "03. Funky Tonight",
+                "04. Caroline",
+                "05. Good Excuse",
+                "06. Used To Get High",
+                "07. Gov Did Nothin'",
+                "08. Groovin' Slowly",
+                "09. Devil Running",
+                "10. Losing You", 
+                "11. Nowhere Man",
+                "12. Fire In The Sky", 
+                "13. Gonna Take It"
+            ]
+        },
+        {
+            "id": "12",
+            "name": "Back To Black",
+            "artist": "Amy Winehouse",
+            "artwork": "./assets/back-to-black.jpg",
+            "year": "2006",
+            "genre": "Jazz, Funk/Soul, Pop",
+            "tracks": [
+                "01. Rehab",
+                "02. You Know I'm No Good",
+                "03. Me Mr Jones",
+                "04. Just Friends",
+                "05. Back To Black", 
+                "06. Love Is A Losing Game",
+                "07. Tears Dry On Their Own",
+                "08. Wake Up Alone",
+                "09. Some Unholy War",
+                "10. He Can Only Hold Her",
+                "11. You Know I'm No Good"
+            ]
+        }        
+    ]
+}
