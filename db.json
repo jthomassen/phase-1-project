@@ -133,7 +133,7 @@
         },
         {
             "id": "7",
-            "name": "Portait in Jazz",
+            "name": "Portrait in Jazz",
             "artist": "Bill Evans Trio",
             "artwork": "./assets/portrait-in-jazz.jpg",
             "year": "1960",
@@ -264,6 +264,6 @@
                 "10. He Can Only Hold Her",
                 "11. You Know I'm No Good"
             ]
-        }        
+        }         
     ]
 }
