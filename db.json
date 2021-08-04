@@ -6,7 +6,8 @@
             "artist": "The Beach Boys",
             "artwork": "./assets/smiley-smile.jpeg",
             "year": "1967",
-            "genre": "Avant-Pop",
+            "genreFilter": "Rock",
+            "genre": "Rock, Avant-Pop",
             "tracks": [
                 "01. Heroes and Villains",
                 "02. Vegetables",
@@ -27,7 +28,8 @@
             "artist": "Meridian Brothers",
             "artwork": "./assets/cumbia-siglo-xxi.jpeg",
             "year": "2020",
-            "genre": "Cumbia",
+            "genre-filter": "Rock",
+            "genre": "Rock, Cumbia, Electronic",
             "tracks": [
                 "01. Los Golpeadores de la Cumbia",
                 "02. Cumbia del Pichamán",
@@ -47,7 +49,8 @@
             "artist": "R. Stevie Moore",
             "artwork": "./assets/glad-music.jpg",
             "year": "1986",
-            "genre": "Power Pop",
+            "genre-filter": "Rock",
+            "genre": "Rock, Power Pop",
             "tracks": [
                 "01. Norway",
                 "02. I Like to Stay Home",
@@ -72,7 +75,8 @@
             "artist": "Kero Kero Bonito",
             "artwork": "./assets/time-n-place.jpg",
             "year": "2018",
-            "genre": "Hyperpop",
+            "genre-filter": "Pop",
+            "genre": "Pop, Hyperpop, Indie Rock",
             "tracks": [
                 "01. Outside",
                 "02. Time Today",
@@ -94,7 +98,8 @@
             "artist": "Paul McCartney",
             "artwork": "./assets/mccartney-ii.jpg",
             "year": "1980",
-            "genre": "New Wave",
+            "genre-filter": "Rock",
+            "genre": "Rock, New Wave, Electronic",
             "tracks": [
                 "01. Coming Up",
                 "02. Temporary Secretary",
@@ -116,6 +121,7 @@
             "artist": "Eddie Rabbitt",
             "artwork": "./assets/eddie-rabbitt.jpeg",
             "year": "1975",
+            "genre-filter": "Country",
             "genre": "Country",
             "tracks": [
                 "01. Love Me to Sleep",
@@ -137,6 +143,7 @@
             "artist": "Bill Evans Trio",
             "artwork": "./assets/portrait-in-jazz.jpg",
             "year": "1960",
+            "genre-filter": "Jazz",
             "genre": "Jazz",
             "tracks": [
                 "01. Come Rain Or Come Shine",
@@ -156,7 +163,8 @@
             "artist": "Eddie Vedder",
             "artwork": "./assets/into-the-wild.jpg",
             "year": "2010",
-            "genre": "Rock",
+            "genre-filter": "Rock",
+            "genre": "Rock, Folk",
             "tracks": [
                 "01. Setting Forth",
                 "02. No Ceiling",
@@ -178,7 +186,8 @@
             "artist": "Kendrick Lamar",
             "artwork": "./assets/good-kid-maad-city.jpg",
             "year": "2012",
-            "genre": "Hip Hop",
+            "genre-filter": "Hip-Hop",
+            "genre": "Hip-Hop",
             "tracks": [
                 "01. Sherane a.k.a Master Splinter's Daughter",
                 "02. Bitch, Don't Kill My Vibe",
@@ -203,6 +212,7 @@
             "artist": "Haley Reinhart",
             "artwork": "./assets/whats-that-sound.jpg",
             "year": "2017",
+            "genre-filter": "Funk/Soul",
             "genre": "Funk/Soul, Blues",
             "tracks": [
                 "01. Let's Start",
@@ -227,7 +237,8 @@
             "artist": "The John Butler Trio",
             "artwork": "./assets/grand-national.jpg",
             "year": "2007",
-            "genre": "Rock",
+            "genre-filter": "Rock",
+            "genre": "Rock, Bluegrass",
             "tracks": [
                 "01. Better Than",
                 "02. Daniella",
@@ -250,7 +261,8 @@
             "artist": "Amy Winehouse",
             "artwork": "./assets/back-to-black.jpg",
             "year": "2006",
-            "genre": "Jazz, Funk/Soul, Pop",
+            "genre-filter": "Funk/Soul",
+            "genre": "Funk/Soul, Jazz, Pop",
             "tracks": [
                 "01. Rehab",
                 "02. You Know I'm No Good",
