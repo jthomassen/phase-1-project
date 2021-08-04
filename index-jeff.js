@@ -21,10 +21,12 @@ function appendElements(album){
     const tracksHeader = document.createElement('h4')
 
     imgTag.className = 'album-cover'
+    //albumDiv.className = 'album-div'
+    albumDiv.className = album.id % 2 === 1 ?  "album-div-odd" : "album-div-even"
 
     const tracks = album.tracks
 
-    albumDiv.id = album.id
+    albumDiv.id = album.name.substring(0, 4)
     imgTag.src = album.artwork
     nameHeader.textContent = album.name 
     artistHeader.textContent = album.artist 
