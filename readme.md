@@ -4,4 +4,4 @@ This will be a simulation of a vinyl record application where a user can browse 
 
 USER STORY
 
-As a user, I want to browse a list of records, click a button to save my favorite records, filter by artist, and comment to place a bid.
+As a user, I want to browse a collection of records, add the record to my wishlist, and view the site's favorite albums by genre.
