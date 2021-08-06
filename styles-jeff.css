@@ -34,15 +34,21 @@
     /* background-color: bisque; */
  }
 
- .filter-genre {
+ .genre-div {
     float: left;
     width: 16%;
     text-align: center;
-    line-height: 50px;
-    height: 50px;
+    line-height: 80px;
+    height: 80px;
     font-family: helvetica;
-    
-    /* background-color: bisque; */
+ }
+ .genre-div-mouseenter {
+    float: left;
+    width: 16%;
+    text-align: center;
+    height: 80px;
+    line-height:30px;
+    font-family: helvetica;
  }
  
  h1 {
@@ -75,14 +81,13 @@
      /*padding-top: 2%; 
      padding-bottom: 2%;
      padding-left: 2%;*/
-     margin: 150px;
-     
-     
+     margin: 150px;  
  }
  
  .album-div-odd {
      background-color: white;
  }
+
  .album-div-even {
      background-color: #f9f6f0; 
     }
@@ -94,7 +99,11 @@
      height: 750px;
      font-family: helvetica; 
  }
-
+ 
  li {
      list-style-type: none;
+ }
+
+ a:link {
+     text-decoration: none;
  }

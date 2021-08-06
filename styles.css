@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+@font-face {
+    font-family: 'crimescencrimesceneafterimage';
+    src: url('./fontkit-crime/crimesceneafterimage-webfont.woff2') format('woff2'),
+         url('./fontkit-crime/crimesceneafterimage-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'latothin';
+    src: url('./fontkit-lato/lato-thin-webfont.woff2') format('woff2'),
+         url('./fontkit-lato/lato-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latomedium';
+    src: url('./fontkit-lato/lato-medium-webfont.woff2') format('woff2'),
+         url('./fontkit-lato/lato-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+ 
+header {
+    height: 976px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-image {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    height: 976px;
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    font-family: 'latomedium';
+    text-align: center;
+}
+
+.genre-div {
+    text-align: center;
+}
+
+.genre-div-mouseenter {
+    background-color: #fdf0ec;
+    font-family: 'latothin';
+    text-align: center;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.genre-link {
+    padding: 30px;      
+    color: black;  
+}
+ 
+h1 {
+    font-family: 'crimescencrimesceneafterimage';
+    font-size: 1200%;
+    color: #522641;
+}
+
+.album-cover {
+    width: auto; 
+    height: 500px;
+}
+    
+.album-text {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;  
+}
+ 
+.album-div-odd {
+    background-color: white;    
+}
+
+.album-div-even {
+    background-color: #f9f6f0; 
+}
+ 
+.album-div-odd, .album-div-even {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    height: 750px;
+    font-family: 'latothin';
+}
+ 
+li {
+    list-style-type: none;
+}
+
+.wishlist-heart {
+    cursor: pointer;
+}
+
+a:link {
+     text-decoration: none;
+}
+    
