@@ -33,9 +33,6 @@ body {
  
 header {
     height: 976px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .header-image {
@@ -43,8 +40,6 @@ header {
     left: 0px;
     top: 0px;
     z-index: -1;
-    height: 976px;
-    width: 100%;
 }
 
 .banner {
@@ -77,9 +72,11 @@ header {
 }
  
 h1 {
+    text-align: center;
+    padding-top: 20%;
     font-family: 'crimescencrimesceneafterimage';
     font-size: 1200%;
-    color: #522641;
+    color: #522641
 }
 
 .album-cover {

@@ -18,9 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         genre.addEventListener('mouseenter', (e) => {
             genreFilter = e.target.textContent;
             genreDiv = e.target;
-            e.target.innerHTML = `
-                <a href=#favorite${genreFilter} class="genre-link">&#9836;&nbsp;&nbsp;&nbsp;Reco's Favorite ${genreFilter}&nbsp;&nbsp;&nbsp;&#9836;</a>
-            `
+            e.target.innerHTML = `<a href=#favorite${genreFilter}>Reco's Favorite ${genreFilter}</a>`
             genreDiv.className = 'genre-div-mouseenter';
         });
         genre.addEventListener('mouseleave', (e) => {
@@ -42,9 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function createAlbumDiv(album){
         //create elements for div
         const albumDiv = document.createElement('div')
-        const albumTextDiv = document.createElement('div')
-        const albumCoverDiv = document.createElement('div')
-        const albumInfoDiv = document.createElement('div')
         const trackDiv = document.createElement('div')
         const imgTag = document.createElement('img')
         const nameHeader = document.createElement('h2')
@@ -57,11 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
         //assign IDs or classes to elements
         imgTag.className = 'album-cover'
         albumDiv.className = album.id % 2 === 1 ?  "album-div-odd" : "album-div-even"
-        albumDiv.id = album.genreFavorite
-        albumInfoDiv.className = 'album-info'
-        albumTextDiv.className = 'album-text'
-        albumCoverDiv.className = 'album-image'
-        trackDiv.className = 'track-list'
+        albumDiv.id = album.genreFavorite;
         //set HTML attributes
         imgTag.src = album.artwork
         nameHeader.textContent = album.name 
@@ -72,17 +63,13 @@ document.addEventListener('DOMContentLoaded', () => {
         tracksHeader.innerText = "Tracklist"
         wishlistDiv.innerHTML = `
             <li class="wishlist">Wishlist 
-                <span class="wishlist-heart">&#x2661;</span>
-            </li>
+            <span class="wishlist-heart">&#x2661;</span></li>
             `
         topLink.href = "#header"
         topLink.innerText = "Back to Top"
         //append Elements
         divContainer.append(albumDiv)
-        albumDiv.append(albumCoverDiv, albumTextDiv)
-        albumCoverDiv.append(imgTag)
-        albumInfoDiv.append(nameHeader, artistHeader,genrePg, yearPg)
-        albumTextDiv.append(albumInfoDiv, trackDiv, wishlistDiv, topLink)
+        albumDiv.append(imgTag, nameHeader, artistHeader, genrePg, yearPg, trackDiv, wishlistDiv, topLink)
         trackDiv.append(tracksHeader)   
         //create track list
         tracks.forEach((track) => {
